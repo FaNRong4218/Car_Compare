@@ -1,6 +1,6 @@
 <?php
 include('connect.php');
-$sql = "SELECT * FROM car_year";
+$sql = "SELECT Year_Name FROM car_year";
 $query = mysqli_query($conn, $sql);
 
 $json = array();
